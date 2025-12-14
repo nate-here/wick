@@ -19,6 +19,21 @@
         type="application/octet-stream"
         sparkle:edSignature="PsDqt5RRrGDtQ/k6yghCheEsMaeOLsZr44q+rDNSZrY="
       />
+      <description>
+## What's New in Version 0.1.2
+
+- **✨ New Features**
+  - **Added dark mode support** for better nighttime coding.  
+  - **Introduced auto-save functionality** to prevent data loss.  
+  - **New customizable toolbar** with quick-access buttons.  
+  - **Integrated basic Markdown preview** for notes and documentation.  
+
+- **🐛 Bug Fixes**
+  - **Fixed app crash** when opening multiple projects simultaneously.  
+  - **Resolved layout issues** in the settings panel.  
+  - **Corrected file export errors** for certain special characters.  
+  - **Improved stability** when importing large project files.
+      </description>
     </item>
 
   </channel>
