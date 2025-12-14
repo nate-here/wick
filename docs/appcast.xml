@@ -22,15 +22,17 @@
       <description>
 **What's New in Version 0.1.2**||NL||
 ||NL|| **✨ New Features**
-||BP|| **Added dark mode support** for better nighttime coding.
-||BP|| **Introduced auto-save functionality** to prevent data loss.
-||BP|| **New customizable toolbar** with quick-access buttons.
-||BP|| **Integrated basic Markdown preview** for notes and documentation.||NL||
+||BP|| **Alarms** – now with lock screen support and a new creation UI.
+||BP|| **Reworked Now Playing** – backend fixes to resolve incorrect positioning bugs.
+||BP|| **Mouse support** – left click to expand, right click to clear timers.||NL||
 ||NL||**🐛 Bug Fixes**
-||BP|| **Fixed app crash** when opening multiple projects simultaneously.
-||BP|| **Resolved layout issues** in the settings panel.
-||BP|| **Corrected file export errors** for certain special characters.
-||BP|| **Improved stability** when importing large project files.
+||BP|| **Stray windows** causing the lock screen to appear on unlock fixed.
+||BP|| **Minor locking visual glitches** resolved.
+||BP|| **App not starting correctly in Sequoia** fixed.
+||BP|| **Minor animation glitches and pauses** when clearing/dismissing timers fixed.
+||BP|| **Tint color in light mode** corrected.
+||BP|| **Improved kerning** for all text elements.
+||BP|| **Updated notification header** to display “Wick”.||NL||
       </description>
     </item>
 
