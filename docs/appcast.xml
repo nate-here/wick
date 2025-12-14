@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Wick</title>
+    <link>https://nate-here.github.io/wick/</link>
+    <description>Wick Updates</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 0.1.1</title>
+      <sparkle:version>0</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <enclosure
+        url="__REPLACE_WITH_GITHUB_RELEASE_ZIP_URL__"
+        length="__REPLACE_WITH_ZIP_SIZE_IN_BYTES__"
+        type="application/octet-stream"
+        sparkle:edSignature="__REPLACE_WITH_EDDSA_SIGNATURE__" />
+    </item>
+
+  </channel>
+</rss>
