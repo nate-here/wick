@@ -20,18 +20,17 @@
         sparkle:edSignature="PsDqt5RRrGDtQ/k6yghCheEsMaeOLsZr44q+rDNSZrY="
       />
       <description>
-||NL||**What's New in Version 0.1.2**||NL||
-||NL||**✨ New Features**||NL||
-||BP|| **Added dark mode support** for better nighttime coding.||NL||
-||BP|| **Introduced auto-save functionality** to prevent data loss.||NL||
-||BP|| **New customizable toolbar** with quick-access buttons.||NL||
+**What's New in Version 0.1.2**||NL||
+||NL|| **✨ New Features**
+||BP|| **Added dark mode support** for better nighttime coding.
+||BP|| **Introduced auto-save functionality** to prevent data loss.
+||BP|| **New customizable toolbar** with quick-access buttons.
 ||BP|| **Integrated basic Markdown preview** for notes and documentation.||NL||
-||NL||**🐛 Bug Fixes**||NL||
-||BP|| **Fixed app crash** when opening multiple projects simultaneously.||NL||
-||BP|| **Resolved layout issues** in the settings panel.||NL||
-||BP|| **Corrected file export errors** for certain special characters.||NL||
-||BP|| **Improved stability** when importing large project files.||NL||
-||NL||
+||NL||**🐛 Bug Fixes**
+||BP|| **Fixed app crash** when opening multiple projects simultaneously.
+||BP|| **Resolved layout issues** in the settings panel.
+||BP|| **Corrected file export errors** for certain special characters.
+||BP|| **Improved stability** when importing large project files.
       </description>
     </item>
 
