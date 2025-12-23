@@ -20,19 +20,24 @@
         sparkle:edSignature="mKNsJiRQjW/5gm1yfM15cb2wjsfolVd6+Z3FE5MHWli2q/KqwyUM4zS2ESbBip+WCiMXsaTWGEIjt6as3RJDCA=="
       />
       <description>
-**What's New in Version 0.1.2**||NL||
-||NL|| **✨ New Features**
-||BP|| **Alarms** – now with lock screen support and a new creation UI.
-||BP|| **Reworked Now Playing** – backend fixes to resolve incorrect positioning bugs.
-||BP|| **Mouse support** – left click to expand, right click to clear timers.||NL||
-||NL||**🐛 Bug Fixes**
-||BP|| **Stray windows** causing the lock screen to appear on unlock fixed.
-||BP|| **Minor locking visual glitches** resolved.
-||BP|| **App not starting correctly in Sequoia** fixed.
-||BP|| **Minor animation glitches and pauses** when clearing/dismissing timers fixed.
-||BP|| **Tint color in light mode** corrected.
-||BP|| **Improved kerning** for all text elements.
-||BP|| **Updated notification header** to display “Wick”.||NL||
+**What's New in Version 0.1.1**||NL|| 
+||NL|| **Important: I have temporarily disabled clearing transition animations** 
+||NL|| **Features:** 
+||BP|| **Alarms** 
+||BP|| **Reworked Now Playing** 
+||BP|| **Mouse support** – left click to expand, right click to clear 
+||BP|| **Settings window** 
+||BP|| **Updater** 
+||BP|| **Lock screen customization** 
+||BP|| **Improved temporary window** 
+||NL|| **Bug Fixes:** 
+||BP|| **Minor visual glitches when locking** 
+||BP|| **App not starting correctly in Sequoia** 
+||BP|| **Reworked animations when dismissing on lock screen** 
+||BP|| **Fixed tint color in light mode** 
+||BP|| **Improved kerning** 
+||BP|| **Updated notification header** to “Wick” 
+||BP|| **Rewrote Now Playing detection for improved Alcove positioning**
       </description>
     </item>
 
