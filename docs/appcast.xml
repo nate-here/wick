@@ -14,10 +14,10 @@
       <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <pubDate>Fri, 13 Dec 2025 21:49:00 +0000</pubDate>
       <enclosure
-        url="https://github.com/nate-here/wick/releases/download/Beta/Wick-0.1.3.zip"
-        length="6324845"
+        url="https://github.com/nate-here/wick/releases/download/Beta/Wick.zip"
+        length="1324048"
         type="application/octet-stream"
-        sparkle:edSignature="nYQfkcrqTAwUPy15utDCVxknZGhztt5DO3T+ktMJLeUCvhWgBpPm3Lafr0xBm1gK6Dz7r4N83dyO0fLLBER3DQ=="
+        sparkle:edSignature="mKNsJiRQjW/5gm1yfM15cb2wjsfolVd6+Z3FE5MHWli2q/KqwyUM4zS2ESbBip+WCiMXsaTWGEIjt6as3RJDCA=="
       />
       <description>
 **What's New in Version 0.1.2**||NL||
