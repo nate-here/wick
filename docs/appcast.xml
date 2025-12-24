@@ -9,35 +9,26 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.1.1</title>
+      <title>Version 0.1.2</title>
       <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-      <pubDate>Fri, 13 Dec 2025 21:49:00 +0000</pubDate>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <pubDate>Tue, 23 Dec 2025 20:47:00 +0000</pubDate>
       <enclosure
-        url="https://github.com/nate-here/wick/releases/download/Beta/Wick.zip"
+        url="https://github.com/nate-here/wick/releases/download/v0.1.2/Wick.zip"
         length="1324048"
         type="application/octet-stream"
         sparkle:edSignature="mKNsJiRQjW/5gm1yfM15cb2wjsfolVd6+Z3FE5MHWli2q/KqwyUM4zS2ESbBip+WCiMXsaTWGEIjt6as3RJDCA=="
       />
       <description>
-**What's New in Version 0.1.1**||NL|| 
-||NL|| **Important: I have temporarily disabled clearing transition animations** 
-||NL|| **Features:** 
-||BP|| **Alarms** 
-||BP|| **Reworked Now Playing** 
-||BP|| **Mouse support** – left click to expand, right click to clear 
-||BP|| **Settings window** 
-||BP|| **Updater** 
-||BP|| **Lock screen customization** 
-||BP|| **Improved temporary window** 
-||NL|| **Bug Fixes:** 
-||BP|| **Minor visual glitches when locking** 
-||BP|| **App not starting correctly in Sequoia** 
-||BP|| **Reworked animations when dismissing on lock screen** 
-||BP|| **Fixed tint color in light mode** 
-||BP|| **Improved kerning** 
-||BP|| **Updated notification header** to “Wick” 
-||BP|| **Rewrote Now Playing detection for improved Alcove positioning**
+||NL|| **What's New in Version 0.1.1** ||NL||
+||NL|| **Important: Clearing transition animations remains disabled due to bugs.** ||NL||
+||NL|| **New Features**  
+||BP|| Options to modify your time and calendar  
+||BP|| Embers app icon ||NL||
+||NL|| **Bug Fixes**  
+||BP|| Corrected main window theming in light mode  
+||BP|| Improved readability in light and dark mode  
+||BP|| Corrected lock screen coloring in light and dark mode  
       </description>
     </item>
 
