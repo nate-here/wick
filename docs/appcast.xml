@@ -9,9 +9,9 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.1.2</title>
-      <sparkle:version>58</sparkle:version>
-      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <title>Version 0.2.0</title>
+      <sparkle:version>0</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <pubDate>Tue, 23 Dec 2025 20:47:00 +0000</pubDate>
       <enclosure
         url="https://github.com/nate-here/wick/releases/download/v0.1.2/Wick.zip"
@@ -20,15 +20,6 @@
         sparkle:edSignature="q2ogLXQXHJuldci1peot33tzZW9gt7NcCOpgVdpvIHvAqXmpBTJQp0A9EJLm4a5mxS550jAqzwUUGvWAoNd/DA=="
       />
       <description>
-||NL|| **What's New in Version 0.1.2** ||NL||
-||NL|| **Important: Clearing transition animations remains disabled due to bugs.** ||NL||
-||NL|| **New Features**  
-||BP|| Options to modify your time and calendar  
-||BP|| Embers app icon ||NL||
-||NL|| **Bug Fixes**  
-||BP|| Corrected main window theming in light mode  
-||BP|| Improved readability in light and dark mode  
-||BP|| Corrected lock screen coloring in light and dark mode  
       </description>
     </item>
 
