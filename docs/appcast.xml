@@ -9,9 +9,9 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.2.0</title>
+      <title>Version 0.2.1</title>
       <sparkle:version>0</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
       <pubDate>Tue, 23 Dec 2025 20:47:00 +0000</pubDate>
       <enclosure
         url="https://github.com/nate-here/wick/releases/download/v0.1.2/Wick.zip"
