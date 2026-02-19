@@ -1,10 +1,10 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.3",
     "build": "66",
     "minimumSystemVersion": "15.0",
-    "downloadURL": "https://github.com/nate-here/wick/releases/download/v0.2.4/Wick-0.2.4.zip",
-    "sha256": "a8d050d5c46c7785ac700d559403780ffda9d1e7a14bc7d7a1912cc106038d17",
-    "size": 4829313,
+    "downloadURL": "https://github.com/nate-here/wick/releases/download/v0.2.3/Wick-0.2.3.zip",
+    "sha256": "662413d65936433ab977f1b31eebe43df1165b3d461a2fa2914403939c29f1c1",
+    "size": 4829027,
     "releaseNotes": "Bug fixes and improvements",
-    "signature": "TIvNPchu6sGY/an2K6hJeVhtnf+eSvgeecmlkjon4PESPM53fmLj8EQGcMrDGagSMjpiw0kNcahISqLlkwaKDQ=="
+    "signature": "wh13Qlxdz0IQGbuyXN0XTP44ftMbICSgEP2dRmQrFtF21FbcaazNYURntWshI0ciDrRRk87ENakYG5xSqcVmDw=="
 }
