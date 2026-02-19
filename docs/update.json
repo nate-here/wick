@@ -1,6 +1,6 @@
 {
-    "version": "0.2.4",
-    "build": "66",
+    "version": "0.2.2",
+    "build": "65",
     "minimumSystemVersion": "15.0",
     "downloadURL": "https://github.com/nate-here/wick/releases/download/v0.2.2/Wick-0.2.2.zip",
     "sha256": "aedccd18ad92bebec1bf8a65d6a95e8d2f9d01800206772a7cb27f88aed79787",
