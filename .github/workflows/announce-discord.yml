@@ -1,15 +1,14 @@
 name: Announce release on Discord
 
-# Posts a formatted announcement to a Discord channel (via webhook) whenever a
-# release is published on this repo. Pulls the version, notes, date, and .dmg
-# link straight from the release. Also runnable manually to test or re-post.
+# Posts just the version number (e.g. "v1.0.2") to a Discord channel via webhook
+# whenever a release is published on this repo. Also runnable manually.
 on:
   release:
     types: [published]
   workflow_dispatch:
     inputs:
       tag:
-        description: "Release tag to announce (e.g. v1.0.2). Blank = latest."
+        description: "Release tag to post (e.g. v1.0.2). Blank = latest."
         required: false
 
 permissions:
@@ -19,7 +18,7 @@ jobs:
   announce:
     runs-on: ubuntu-latest
     steps:
-      - name: Send Discord announcement
+      - name: Post version to Discord
         env:
           GH_TOKEN: ${{ github.token }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
@@ -40,42 +39,8 @@ jobs:
           if [ -z "$TAG" ]; then
             TAG=$(gh api "repos/$REPO/releases/latest" --jq '.tag_name')
           fi
-          echo "Announcing $TAG"
 
-          REL=$(gh api "repos/$REPO/releases/tags/$TAG")
-          VERSION="${TAG#v}"
-          NOTES=$(printf '%s' "$REL" | jq -r '.body // "No release notes."')
-          PAGE=$(printf  '%s' "$REL" | jq -r '.html_url')
-          DATE=$(printf  '%s' "$REL" | jq -r '.published_at')
-          DMG=$(printf   '%s' "$REL" | jq -r '[.assets[] | select(.name|test("\\.dmg$";"i")) | .browser_download_url] | first // ""')
-
-          # Discord embed description max is 4096 chars; keep headroom.
-          NOTES=$(printf '%s' "$NOTES" | head -c 3500)
-
-          # Build the JSON payload safely (jq handles all escaping).
-          PAYLOAD=$(jq -n \
-            --arg title "Wick $VERSION is out 🎉" \
-            --arg page "$PAGE" \
-            --arg desc "$NOTES" \
-            --arg dmg  "$DMG" \
-            --arg date "$DATE" \
-            '{
-              username: "Wick Releases",
-              embeds: [ ({
-                title: $title,
-                url: $page,
-                description: $desc,
-                color: 15233820,
-                timestamp: $date,
-                footer: { text: "Wick • trywick.co" }
-              } + (if $dmg != "" then
-                    { fields: [ { name: "Download", value: "[Download for macOS](\($dmg))" } ] }
-                   else {} end)) ]
-            }')
-
-          # Optional: ping a role/everyone by setting CONTENT, e.g.:
-          #   PAYLOAD=$(printf '%s' "$PAYLOAD" | jq '. + {content:"<@&ROLE_ID>"}')
-
+          PAYLOAD=$(jq -n --arg v "$TAG" '{content: $v}')
           curl -fsSL -X POST -H "Content-Type: application/json" \
             --data "$PAYLOAD" "$DISCORD_WEBHOOK"
           echo "Posted $TAG to Discord."
