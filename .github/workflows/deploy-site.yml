@@ -1,0 +1,24 @@
+name: Redeploy site on release
+
+# When a GitHub release is published on this repo, ping the Vercel deploy hook
+# so trywick.co rebuilds and picks up the new version + changelog automatically.
+on:
+  release:
+    types: [published]
+
+permissions: {}
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::VERCEL_DEPLOY_HOOK secret is not set on this repo."
+            exit 1
+          fi
+          curl -fsSL -X POST "$HOOK"
+          echo "Deploy hook triggered."
