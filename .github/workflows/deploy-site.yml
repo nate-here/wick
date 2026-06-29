@@ -1,10 +1,12 @@
 name: Redeploy site on release
 
-# When a GitHub release is published on this repo, ping the Vercel deploy hook
-# so trywick.co rebuilds and picks up the new version + changelog automatically.
+# When a release is published or edited on this repo, ping the Vercel deploy
+# hook so trywick.co rebuilds and picks up the new version, changelog, and .dmg
+# automatically. Also runnable manually (workflow_dispatch) to test the hook.
 on:
   release:
-    types: [published]
+    types: [published, edited]
+  workflow_dispatch: {}
 
 permissions: {}
 
